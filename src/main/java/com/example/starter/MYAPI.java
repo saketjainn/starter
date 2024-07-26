@@ -58,7 +58,7 @@ public class MYAPI extends AbstractVerticle {
        int maxlength=0;
   
        for(int i=0;i<l1;i++){
-        for(int j=i+1;j<=l1;j++){ //Sir i was commiting mistake here in condition checking i have used (j<l1) but actually it should be(j<=l1)
+        for(int j=i+1;j<=l1;j++){ //Sir i was commiting mistake here in condition checking i have used (j<l2) but actually it should be(j<=l1)
             String sub=uname.substring(i,j);
          //  System.out.println(j);
 
